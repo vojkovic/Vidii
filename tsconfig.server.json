@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist-server",
+    "target": "ES2020",
+    "noEmit": false
+  },
+  "include": ["server.ts", "app/api/**/*", "app/lib/**/*"]
+} 

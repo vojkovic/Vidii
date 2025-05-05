@@ -1,0 +1,46 @@
+{
+  "name": "vidii",
+  "version": "1.0.0",
+  "description": "A web app that hosts a single password protected video",
+  "main": "server.ts",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "ts-node --transpile-only server.ts",
+    "build": "vite build",
+    "build:server": "tsc -p tsconfig.server.json",
+    "serve": "ts-node --transpile-only server.ts",
+    "start": "node dist-server/server.js"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "class-variance-authority": "^0.6.1",
+    "clsx": "^1.2.1",
+    "express": "^4.18.2",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "hls.js": "^1.4.12",
+    "js-yaml": "^4.1.0",
+    "lucide-react": "^0.263.1",
+    "next": "^15.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.18.1",
+    "@types/js-yaml": "^4.0.5",
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.7"
+  }
+}
